@@ -1,0 +1,29 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "web_scraper using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gscoggin/web_scraper.git"
+  },
+  "author": "gabe scoggin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gscoggin/web_scraper/issues"
+  },
+  "homepage": "https://github.com/gscoggin/web_scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
